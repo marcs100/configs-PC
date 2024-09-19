@@ -1,0 +1,64 @@
+#import = ["~/.config/alacritty/catppuccin/catppuccin-macchiato.toml"]
+
+[font]
+size = 14.0
+
+[font.bold]
+family = "Monospace"
+style = "Bold"
+
+[font.bold_italic]
+family = "Monospace"
+style = "Bold Italic"
+
+[font.italic]
+family = "Monospace"
+style = "Italic"
+
+[font.normal]
+family = "Monospace"
+style = "Regular"
+
+[window]
+
+opacity = 1
+
+padding.x = 10
+padding.y = 10
+
+decorations = "Full"
+decorations_theme_variant = "Dark" # "Dark"
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.primary]
+background = '#1f1f1f'
+foreground = '#c7ccd1'
+
+[colors.normal]
+black = "#21222c"
+red = "#ff5555"
+green = "#50fa7b"
+yellow = "#f1fa8c"
+blue = "#0d386c"
+magenta = "#ff79c6"
+cyan = "#108aa2"
+white = "#f8f8f2"
+
+# Bright colors
+[colors.bright]
+black   = '#6e7681'
+red     = '#ffa198'
+green   = '#56d364'
+yellow  = '#e3b341'
+blue    = '#1e5da8'
+magenta = '#d2a8ff'
+cyan    = '#56d4dd'
+white   = '#f0f6fc'
+
+
+[colors.cursor]
+text = "CellBackground"
+cursor = "CellForeground"
+
