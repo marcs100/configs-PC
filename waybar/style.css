@@ -1,8 +1,9 @@
 * {
 min-height: 0;
-font-family: Lexend, "Font Awesome 6 Free Solid";
+/*font-family: Lexend, "Font Awesome 6 Free Solid";*/
+font-family: Lexend, "Monospace";
 font-size: 16px;
-font-weight: 500;
+font-weight: 600;
 }
 
 window#waybar {
@@ -17,8 +18,9 @@ window#waybar.hidden {
     opacity: 0.5;
 }
 
-#workspaces {
-background-color: transparent;
+
+#workspaces.active{
+    background-color: #f31717
 }
 
 #workspaces button {
@@ -47,6 +49,11 @@ background-color: #89b4fa;
 
 #workspaces button.urgent {
 background-color: #f38ba8;
+}
+
+
+#workspaces button.current_output.visible{
+background-color: #6b8ed8;
 }
 
 #clock,

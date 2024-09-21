@@ -8,24 +8,25 @@
     "passthrough": false,
     "fixed-center": true,
     "modules-left": ["sway/workspaces", "sway/window"],
-    "modules-center": ["custom/spotify"],
+    //"modules-center": ["custom/spotify"],
     "modules-right": [
         "cpu",
         "memory",
         "pulseaudio",
         "clock",
         "clock#simpleclock",
+        "battery",
         "tray",
         "custom/power",
     ],
-    "custom/spotify": {
+    /*"custom/spotify": {
         "format": "{}",
         "return-type": "json",
         "on-click": "playerctl -p spotify play-pause",
         "on-click-right": "spotifatius toggle-liked",
         "on-click-middle": "playerctl -p spotify next",
         "exec": "spotifatius monitor",
-    },
+    },*/
     "wlr/workspaces": {
         "on-click": "activate",
         "format": "{name}",
@@ -39,7 +40,8 @@
     },
     "clock#simpleclock": {
         "tooltip": false,
-        "format": "  {:%H:%M}",
+        //"format": "  {:%H:%M}",
+        "format": "  {:%H: %M}",
     },
     "clock": {
         "format": "  {:L%a %d %b}",
@@ -51,7 +53,7 @@
         "interval": 1,
     },
     "memory": {
-        "format": "  {used:0.2f}G",
+        "format": "  {used:0.1f}G",
     },
     "pulseaudio": {
         "format": "{icon} {volume}%",
@@ -80,4 +82,5 @@
         "on-click": "wlogout -p layer-shell &",
         "format": "⏻ ",
     },
+
 }
