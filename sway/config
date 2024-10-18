@@ -18,25 +18,11 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 8d8baa7 (updated)
 set $menu rofi -show drun
 
 set $browser flatpak run io.github.zen_browser.zen
 
 set $files cosmic-files
-<<<<<<< HEAD
-=======
-=======
-set $menu fuzzel
-
-set $browser flatpak run io.github.zen_browser.zen
-
-set $files nautilus
->>>>>>> ba3ff87 (updated)
->>>>>>> 8d8baa7 (updated)
 
 ### Output configuration
 #
@@ -83,25 +69,9 @@ output * bg /home/marc/Sync/wallpapers/vault.jpg fill
 exec alacritty --class terminal_scratchpad
 for_window [app_id="terminal_scratchpad"] move scratchpad, resize set 1400 800
 
-<<<<<<< HEAD
 
 
 gaps inner 10
-=======
-<<<<<<< HEAD
-
-
-gaps inner 10
-=======
-#set window colours
-#               border  bground  text    indicator  child border
-#client.focused  #434039  #434040 #d9d6ce #717d8a    #55c2de
-#client.focused  #434040   #434039 #d9d6ce #717d8a    #434039
-default_border normal 5
-
-gaps inner 8
->>>>>>> ba3ff87 (updated)
->>>>>>> 8d8baa7 (updated)
 
  input "type:keyboard" {
   xkb_layout "gb"
