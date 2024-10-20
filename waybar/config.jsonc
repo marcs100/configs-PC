@@ -77,10 +77,10 @@
         "format": "|",
         "tooltip": false,
     },
+
     "custom/power": {
         "tooltip": false,
-        "on-click": "wlogout -p layer-shell &",
+        "on-click": "nwg-bar -p top",
         "format": "⏻ ",
     },
-
 }

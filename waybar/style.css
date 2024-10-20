@@ -44,7 +44,7 @@ background-color: #cdd6f4;
 
 #workspaces button.active {
 color: #1e1e2e;
-background-color: #89b4fa;
+background-color: #31575a
 }
 
 #workspaces button.urgent {
@@ -53,7 +53,7 @@ background-color: #f38ba8;
 
 
 #workspaces button.current_output.visible{
-background-color: #6b8ed8;
+background-color: #31575a;
 }
 
 #clock,
@@ -83,19 +83,19 @@ window#waybar.empty #window {
 
 
 #cpu {
-color: #94e2d5;
+color: #ebebeb;
 }
 
 #memory {
-color: #cba6f7;
+color: #ebebeb;
 }
 
 #clock {
-color: #74c7ec;
+color: #ebebeb;
 }
 
 #clock.simpleclock {
-color: #89b4fa;
+color: #ebebeb;
 }
 
 #window {
@@ -103,7 +103,7 @@ color: #a6e3a1;
 }
 
 #pulseaudio {
-color: #b4befe;
+color: #ebebeb;
 }
 
 #pulseaudio.muted {
