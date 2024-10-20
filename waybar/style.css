@@ -20,7 +20,7 @@ window#waybar.hidden {
 
 
 #workspaces.active{
-    background-color: #f31717
+    background-color: #31575a
 }
 
 #workspaces button {
@@ -77,28 +77,10 @@ padding: 0px;
 color: #585b70;
 }
 
-#custom-spotify.playing {
-color: #cdd6f4;
-}
-
-#custom-spotify.liked {
-color: #f9e2af;
-}
-#custom-spotify.added {
-color: #cba6f7;
-}
-
-#custom-spotify.removed {
-color: #f38ba8;
-}
-
-#custom-spotify.paused {
-color: #9399b2;
-}
-
 window#waybar.empty #window {
     background-color: transparent;
 }
+
 
 #cpu {
 color: #94e2d5;
