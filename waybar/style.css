@@ -1,7 +1,8 @@
 * {
 min-height: 0;
 /*font-family: Lexend, "Font Awesome 6 Free Solid";*/
-font-family: Lexend, "Monospace";
+font-family: Lexend, "JetBrainsMono Nerd Font";
+/*font-family: Lexend, "monospace"; */
 font-size: 16px;
 font-weight: 600;
 }
@@ -59,17 +60,24 @@ background-color: #31575a;
 #clock,
 #pulseaudio,
 #custom-logo,
-#custom-power,
-#custom-spotify,
 #cpu,
-#tray,
-#memory,
-#window {
+#network,
+#memory{
 min-height: 0;
 padding: 2px 10px;
 border-radius: 8px;
 margin: 4px 4px;
-background-color: #181825;
+background-color: #c9c0b5;
+}
+
+#custom-power
+#window,
+#tray{
+min-height: 0;
+padding: 2px 10px;
+border-radius: 8px;
+margin: 4px 4px;
+background-color: #565656;
 }
 
 #custom-sep {
@@ -83,19 +91,23 @@ window#waybar.empty #window {
 
 
 #cpu {
-color: #ebebeb;
+color: #181825
 }
 
 #memory {
-color: #ebebeb;
+color: #181825
+}
+
+#network {
+color: #181825
 }
 
 #clock {
-color: #ebebeb;
+color: #181825
 }
 
 #clock.simpleclock {
-color: #ebebeb;
+color: #181825
 }
 
 #window {
@@ -103,7 +115,7 @@ color: #a6e3a1;
 }
 
 #pulseaudio {
-color: #ebebeb;
+color: #181825
 }
 
 #pulseaudio.muted {

@@ -1,5 +1,6 @@
 {
     "layer": "top",
+    "output": "DP-2", //I only want output to my main monitor
     "position": "top",
     "height": 32,
     "spacing": 4,
@@ -13,10 +14,11 @@
     "modules-right": [
         "cpu",
         "memory",
+        "network",
         "pulseaudio",
         "clock",
         "clock#simpleclock",
-        "battery",
+        //"battery",
         "tray",
         "custom/power",
     ],
@@ -28,6 +30,13 @@
         "on-click-middle": "playerctl -p spotify next",
         "exec": "spotifatius monitor",
     },*/
+
+    "network":{
+        "interface": "eno1",
+        "format": "󰈀 {ifname} {ipaddr} {bandwidthDownBytes} MBps",  
+        "interval": 1,
+    },
+    
     "wlr/workspaces": {
         "on-click": "activate",
         "format": "{name}",
@@ -54,7 +63,7 @@
         "interval": 1,
     },
     "memory": {
-        "format": "  {used:0.1f}G",
+        "format": "  {used:0.1f}G",
     },
     "pulseaudio": {
         "format": "{icon} {volume}%",
