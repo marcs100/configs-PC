@@ -1,5 +1,5 @@
 layout {
-    cwd "/home/marc/source/scribe-cli"
+    cwd "/home/marc/source"
 	pane split_direction="vertical" {
         pane
         
