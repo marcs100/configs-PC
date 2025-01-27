@@ -11,3 +11,4 @@ skip-levels = 1
 [keys.normal]
 C-right = ":bn" #move to next buffer
 C-left = ":bp"  #move to previous buffer
+C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"] #git integration
